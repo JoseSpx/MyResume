@@ -1,0 +1,31 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+}
+
+.header__img{
+    border-radius: 10px;
+    width: 90px;
+}
+
+.header__info{
+    margin-left: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__info__name{
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.header__info__jobtitle{
+    display: block;
+}
