@@ -9,7 +9,7 @@
 
 .header__img{
     border-radius: 10px;
-    width: 90px;
+    width: 70px;
 }
 
 .header__info{
@@ -21,11 +21,111 @@
 }
 
 .header__info__name{
-    font-size: 22px;
+    font-size: 21px;
     font-weight: bold;
     display: block;
 }
 
 .header__info__jobtitle{
+    font-size: 13px;
     display: block;
+}
+
+.profile__title h3{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.profile__title h3 i{
+    font-size: 16px;
+}
+
+.profile__body p{
+    font-size: 10px;
+    padding-left: 16px;
+}
+
+.skills h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.skills__list {
+    padding-left: 0 !important;
+    list-style: none;
+}
+
+.skills__list__elem{
+    margin-bottom: 0.8rem;
+}
+
+.skills__list__elem p{
+    font-size: 10px;
+    margin-bottom: 0.3em;
+}
+
+.skills___list__elem__barcontainer{
+    height: 2px;
+    background-color: #e6ebf4;
+}
+
+.skills___list__elem__barcontainer__filled{
+    height: 2px;
+    background-color: #2798f2;
+}
+
+.details h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.details p{
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+
+.employment {
+
+}
+
+.employment__title h3{
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.employment__title h3 i{
+    font-size: 16px;
+}
+
+.employment__body {
+    padding-left: 16px;
+}
+
+.employment__job .employment__job__title {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.employment__job__dates{
+    margin-top: -5px;
+}
+
+.employment__job__dates span{
+    font-size: 8px;
+}
+
+.employment__job__list ul{
+    padding-left: 16px;
+}
+
+.employment__job__list ul li{
+    font-size: 10px;
 }

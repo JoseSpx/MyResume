@@ -1,25 +1,331 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="container mt-5" >
-        <section class="header" >
+</head>
+
+<body>
+    <div class="container mt-5">
+        <!-- Header Resume -->
+        <section class="header">
             <img class="header__img" src="img/me.png" alt="">
-            <div class="header__info" >
-                <span class="header__info__name" > Jose Suarez Principe </span>
-                <span class="header__info__jobtitle" > Software Developer </span>
+            <div class="header__info">
+                <span class="header__info__name"> Jose Suarez Principe </span>
+                <span class="header__info__jobtitle"> Software Developer </span>
             </div>
         </section>
+        <!-- End Header Resume -->
+
+        <div class="row mt-4">
+            <div class="col-8">
+                <!-- Profile -->
+                <section class="profile">
+                    <div class="profile__title">
+                        <h3>
+                            <i class="material-icons"> person </i>
+                            Profile
+                        </h3>
+                    </div>
+                    <div class="profile__body">
+                        <p> Studies in Computer Engineering. Self-taught, passionate about web and mobile technologies.
+                        </p>
+                        <p> "No matter how many people are behind the code, it should read as if only one person has
+                            written it". </p>
+                    </div>
+                </section>
+                <!-- End Profile -->
+
+                <!-- Employment History -->
+                <section class="employment">
+                    <div class="employment__title">
+                        <h3>
+                            <i class="material-icons"> business_center </i>
+                            Employment History
+                        </h3>
+                    </div>
+                    <div class="employment__body">
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                .NET Software Developer at Ascenda Consultora en Transformación Digital
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> September 2018 - present </span>
+                            </div>
+                            <div class="employment__job__list">
+                                <ul>
+                                    <li> Development of C# web applications with .Net Framework and Net Core. </li>
+                                    <li> Applications with Signal R. </li>
+                                    <li> Implementation of Stored Procedures, functions in Sql Server. </li>
+                                    <li> Front End development with Vue.js and Vanilla js </li>
+                                    <li> Development of SPA web applications made with Angular and Spring Boot. </li>
+                                    <li> Requirements Analysis. </li>
+                                    <li> Development of commercial and financial systems </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                Java and Joomla Developer at Faculty of Nursing - National University of Trujillo
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> January 2016 - August 2018 </span>
+                            </div>
+                            <div class="employment__job__list">
+                                <ul>
+                                    <li> Development and Maintenance of the Website of the Faculty of Nursing. The
+                                        Joomla cms was used for development. </li>
+                                    <li> Development of a User Registration System for the Computation Unit. The
+                                        java language was used with the database manager of Mysql for its realization,
+                                        with the DAO design pattern. </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                PHP Software Developer at TIcognitivas
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> December 2017 - April 2018 </span>
+                            </div>
+                            <div class="employment__job__list">
+                                <ul>
+                                    <li> Development of a Web page for the sale of products (COPRODUC), with an
+                                        administration panel that allowed to change the products and their respective
+                                        characteristics, in addition to obtaining reports of the sales made. The
+                                        language used was PHP with the design pattern MVC, and with the database manager
+                                        Mysql. </li>
+                                    <li> Development of a web page for the company VILARTHE, which shows its products,
+                                        as well as having an administration panel. The language used was PHP with the
+                                        design pattern MVC, and with the database manager Mysql.
+                                        Requirements Analyst. </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                Java Software Developer at TeslaTech
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> September 2018 - present </span>
+                            </div>
+                            <div class="employment__job__list">
+                                <ul>
+                                    <li> Development of an Inventory and Sales Control System for the ECONOMAS
+                                        minimarket, using the Java language with the Mysql database manager. </li>
+                                    <li> Requirements Analysis </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Employment History -->
+
+                <!-- Education -->
+                <section class="employment">
+                    <div class="employment__title">
+                        <h3>
+                            <i class="material-icons"> local_library </i>
+                            Education
+                        </h3>
+                    </div>
+                    <div class="employment__body">
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                National University of Trujillo
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> March 2014 - December 2018 </span>
+                            </div>
+                        </div>
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                El Cultural, Trujillo
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> January 2018 - December 2011 </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Education -->
+
+
+                <!-- References -->
+                <section class="employment mt-2">
+                    <div class="employment__title">
+                        <h3>
+                            <i class="material-icons"> group </i>
+                            References
+                        </h3>
+                    </div>
+                    <div class="employment__body">
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                Marco Contreras from Ascenda
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> 942 711 737 </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Education -->
+
+
+                <!-- Courses -->
+                <section class="employment mt-2">
+                    <div class="employment__title">
+                        <h3>
+                            <i class="material-icons"> book </i>
+                            Courses
+                        </h3>
+                    </div>
+                    <div class="employment__body">
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                RxJs, Angular - Udemy
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Education -->
+
+                <!-- Extra-Curricular Activities -->
+                <section class="employment mt-2 mb-5">
+                    <div class="employment__title">
+                        <h3>
+                            <i class="material-icons"> assignment </i>
+                            Extra-Curricular Activities
+                        </h3>
+                    </div>
+                    <div class="employment__body">
+                        <div class="employment__job">
+                            <div class="employment__job__title">
+                                Ecovoluntario at Ecociudadanos, Trujillo
+                            </div>
+                            <div class="employment__job__dates">
+                                <span> July 2018 - December 2018  </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Education -->
+
+            </div>
+            <div class="col-4">
+                <section class="details">
+                    <h3> Details </h3>
+                    <p> PERU, 981587558 </p>
+                    <p> jose95sp@outlook.com </p>
+                    <p>
+                        Linkedin: https://www.linkedin.com/in/josespx
+                    </p>
+                    <p>
+                        
+                    </p>
+                </section>
+                <section class="skills">
+                    <h3> Skills </h3>
+                    <div>
+                        <ul class="skills__list">
+                            <li class="skills__list__elem">
+                                <p> C# NET </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 90%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> SQL Server </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 80%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> Javascript </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 85%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> Angular 2+ </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 60%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> Vuejs </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 50%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> PHP </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 50%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> Java </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 85%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> Spring Boot </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 70%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> Css </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 81%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> Node Js </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 50%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="skills">
+                    <h3> Languages </h3>
+                    <div>
+                        <ul class="skills__list">
+                            <li class="skills__list__elem">
+                                <p> Spanish </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 100%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                            <li class="skills__list__elem">
+                                <p> English </p>
+                                <div class="skills___list__elem__barcontainer">
+                                    <div style="width: 85%;" class="skills___list__elem__barcontainer__filled"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
     </div>
-  </body>
+</body>
+
 </html>
