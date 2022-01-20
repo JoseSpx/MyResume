@@ -9,7 +9,7 @@ body{
 
 .header{
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
 
 .header__img{
@@ -133,4 +133,8 @@ body{
 
 .employment__job__list ul li{
     font-size: 10px;
+}
+
+.employment__job__list__section {
+    font-size: 8px;
 }
